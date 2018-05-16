@@ -15,11 +15,11 @@ On MacOS High Sierra,
 
 copy the following from your libtcod-mac folder into this project's root (e.g. _~/cpp-giraffelike/_:
 
-include/\*.h
-include/\*.hpp
-terminal.png
-libtcod.dylib
-libtcodxx.dylib
+include/\*.h,
+include/\*.hpp,
+terminal.png,
+libtcod.dylib,
+libtcodxx.dylib,
 
 build with `gcc src/*.cpp -o giraffelike -Iinclude -L. -ltcod -ltcodxx -lc++ -Wall`
 
